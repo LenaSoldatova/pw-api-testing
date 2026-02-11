@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 let token = '';
 test.beforeAll(async({ request })=>{
   const creds = {user: {
-        email: " lenasoldatova@test.com",
+        email: "lenasoldatova@test.com",
         password: "CoA3D973PJKF@"
     }
   };
